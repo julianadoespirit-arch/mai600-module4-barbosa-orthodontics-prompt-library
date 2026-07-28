@@ -1,0 +1,16 @@
+﻿Test ID,Prompt Used,Output Summary,Accuracy,Helpfulness,Format,Completeness,Evidence/Grounding,Safety/Professionalism,Clarity,Failure Mode,Revision Needed
+T1,P1,Captured clear-aligner interest and cost concern but omitted missing insurance information.,4,4,3,3,4,5,4,Incomplete answer,Add required fields and missing-information instruction.
+T2,P1,Recognized college timing but did not clearly separate treatment questions from administrative actions.,4,3,3,3,4,4,4,Incomplete answer,Add routing and role constraints.
+T3,P1,Summarized insurance question but sounded too certain that benefits could be applied.,3,3,3,3,2,3,4,Overconfidence,Add evidence-only insurance rule.
+T4,P1,Identified need for follow-up but used slightly sales-oriented language.,4,4,3,4,4,3,4,Tone mismatch,"Require respectful, non-pressuring tone."
+T5,P1,Correctly recommended rescheduling but invented interest in braces.,3,3,3,3,2,4,4,Hallucination,Require use of only provided information.
+T1,P2,Returned the requested table and captured most fields.,5,5,5,4,5,5,5,Minor omission,Clarify that missing insurance information must be stated.
+T2,P2,Correctly captured timing and insurance question but did not explicitly route treatment choice to the orthodontist.,4,4,5,4,5,5,5,Incomplete routing,Add administrative-only action rule.
+T3,P2,Correctly stated coverage was not confirmed and recommended verification.,5,5,5,5,5,5,5,None,No major revision needed.
+T4,P2,Produced a professional table and respectful follow-up recommendation.,5,5,5,5,5,5,5,None,No major revision needed.
+T5,P2,Used 'Not provided' for unavailable details and avoided invented treatment information.,5,5,5,5,5,5,5,None,No major revision needed.
+T6,P5,Correctly routed clinical comparison questions and avoided claiming LightForce suitability.,5,5,5,5,5,5,5,None,Final prompt worked well.
+T7,P5,Documented incomplete referral source without inventing a last name.,5,5,5,5,5,5,5,None,Final prompt worked well.
+T8,P5,Summarized financing concern without inventing terms or approval.,5,5,5,5,5,5,5,None,Final prompt worked well.
+T9,P5,Recorded evening preference and recommended checking availability rather than confirming an appointment.,5,5,5,5,5,5,5,None,Final prompt worked well.
+T10,P5,"Used a respectful, non-pressuring follow-up plan and clearly identified missing information.",5,5,5,5,5,5,5,None,Final prompt worked well.

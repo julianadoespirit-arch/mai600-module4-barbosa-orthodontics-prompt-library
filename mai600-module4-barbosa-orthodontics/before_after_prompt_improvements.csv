@@ -1,0 +1,6 @@
+﻿Prompt ID,Original Prompt,Problem With Original,Improved Prompt,Improvement Strategy
+P1,Summarize this orthodontic consultation.,Too vague; may omit important details.,"Summarize in five bullets: concern, treatment interest, financial or insurance question, scheduling preference, and administrative next action.",Added required content fields.
+P2,Tell the office what happened and what to do.,"No role, constraints, or output format.",Act as an administrative assistant and return a six-column markdown table using only the provided note.,"Added role, grounding rule, and table schema."
+P3,Classify and summarize the consultation.,No example of the expected response.,Added a sample consultation and sample one-row table before the new input.,Used few-shot prompting to demonstrate the desired output.
+P4,Give a complete explanation and recommendation.,High risk of medical advice and unsupported assumptions.,"Do not diagnose, recommend treatment, promise coverage, or invent financing. Use 'Not provided' for missing details.","Added safety, uncertainty, and evidence-only rules."
+P5,Summarize and recommend the next step.,Does not combine all requirements.,"Defined role, audience, exact table, administrative-only actions, grounding, missing-information rule, and professional tone.",Combined the strongest controls from earlier prompts.

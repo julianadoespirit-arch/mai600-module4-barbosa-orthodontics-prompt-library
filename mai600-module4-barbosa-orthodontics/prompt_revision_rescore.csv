@@ -1,0 +1,4 @@
+﻿Test ID,Original Score,Revised Score,What Changed in Prompt,Why It Improved
+T3,17/35,34/35,Added a rule not to claim insurance coverage unless confirmed and required 'Not provided' for missing benefit information.,The revised output clearly separated the patient's question from verified facts and recommended benefit verification.
+T5,22/35,35/35,Added an evidence-only rule and prohibited invented treatment interests or clinical details.,The revised output stated that treatment interest was not provided and focused only on rescheduling.
+T4,26/35,35/35,"Added a respectful, professional, and non-pressuring tone requirement.",The revised response recommended a courteous follow-up without sales pressure.

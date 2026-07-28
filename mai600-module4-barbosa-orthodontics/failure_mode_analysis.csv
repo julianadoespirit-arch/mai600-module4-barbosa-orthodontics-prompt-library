@@ -1,0 +1,6 @@
+﻿Failure Mode,What Happened,Why It Matters,Mitigation
+Incomplete answer,"Early prompts missed insurance, scheduling, or missing-information details.",Staff may overlook information needed for follow-up.,Require exact table columns and a checklist of required fields.
+Overconfidence,A response suggested that insurance benefits could be applied without verification.,The office could communicate incorrect financial expectations.,Require evidence-only statements and prohibit unsupported coverage claims.
+Hallucination,A response invented interest in braces for a patient who had not completed a consultation.,Invented information could create an inaccurate patient record.,Use only the supplied note and write 'Not provided' for missing details.
+Format drift,Broad prompts sometimes returned paragraphs instead of a consistent table.,Unstructured outputs are harder to compare or automate.,Provide an exact markdown table schema and require one row.
+Tone mismatch,One response used language that sounded too sales-focused.,Pressure-based language may damage trust and patient experience.,"Require a respectful, professional, and non-pressuring tone."
